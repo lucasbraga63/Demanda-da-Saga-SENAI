@@ -72,7 +72,7 @@ Abaixo está o descritivo de como o sistema funcionará na prática, detalhando 
 
 ### Logo da empresa:
 
-<img src="logo.png" style="width:200px; heigth: auto;"> 
+<img src="/Demanda-da-Saga-SENAI/logo" style="width:200px; heigth: auto;"> 
 
 ### 1. Tela de Início (Home)
 **Como vai funcionar:**
@@ -85,6 +85,9 @@ Esta é a vitrine da vidraçaria. O foco aqui é passar credibilidade e direcion
   
 * **Rodapé:** Informações de contato, redes sociais, CNPJ e endereço físico.
 
+**Representação proxima de como vai ficar:**
+<img src="/Demanda-da-Saga-SENAI/TelaInicial.png" style="width:300px; heigth: auto; border-radius: 7px;">
+
 ### 2. Tela de Login e Cadastro (Tela Única)
 **Como vai funcionar:**
 Para evitar que o usuário mude de página e abandone o site, o Login e o Cadastro ocorrerão na mesma tela, onde erá um @keyframe para fazer a animação da tela de cadastro entrando na frente da tela de login.
@@ -94,6 +97,10 @@ Para evitar que o usuário mude de página e abandone o site, o Login e o Cadast
 * **Área de Cadastro:** Formulário rápido e objetivo pedindo apenas o essencial para a compra: Nome completo, E-mail, Telefone (WhatsApp) e criação de Senha.
   
 * **Comportamento:** O cliente só entra e interage com o site quando fizer o login nele
+
+**Representação proxima de como vai ficar:**
+
+<img src="/Demanda-da-Saga-SENAI/TelaLogin.png" style="width:300px; heigth: auto; border-radius: 7px;">
 
 ### 3. Tela de Compras
 **Como vai funcionar:**
