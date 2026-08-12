@@ -85,8 +85,9 @@ Esta é a vitrine da vidraçaria. O foco aqui é passar credibilidade e direcion
   
 * **Rodapé:** Informações de contato, redes sociais, CNPJ e endereço físico.
 
-**Representação proxima de como vai ficar:**
-<img src="assets/ReadMEAssets/TelaInicial.png" style="width:300px; heigth: auto; border-radius: 7px;">
+**Representação proxima de como vai ficar:**<br>
+
+<img src="assets/ReadMEAssets/TelaInicial.png" style="width:90%; heigth: auto; border-radius: 7px;">
 
 ### 2. Tela de Login e Cadastro (Tela Única)
 **Como vai funcionar:**
@@ -100,7 +101,7 @@ Para evitar que o usuário mude de página e abandone o site, o Login e o Cadast
 
 **Representação proxima de como vai ficar:**
 
-<img src="assets/ReadMEAssets/TelaLogin.png" style="width:300px; heigth: auto; border-radius: 7px;">
+<img src="assets/ReadMEAssets/TelaLogin.png" style="width:90%; heigth: auto; border-radius: 7px;">
 
 ### 3. Tela de Compras
 **Como vai funcionar:**
