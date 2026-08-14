@@ -25,6 +25,7 @@ body {
 
 .formularios {
     width: 50%;
+    min-width: 300px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -35,6 +36,9 @@ body {
 
 form {
     width: 50%;
+    max-width: 70%;
+    min-width: 400px;
+    padding: 10px;
     min-height: 500px;
     justify-content: center;
     align-items: center;
@@ -54,9 +58,13 @@ form {
     justify-content: center;
 }
 
-.titulo h2{
+.titulo h2 {
     font-weight: 0;
     font-size: 36px;
+}
+
+.titulo p {
+    font-size: 13px;
 }
 
 .inputs {
@@ -103,7 +111,7 @@ form {
     color: var(--texto-input);
 }
 
-.botoes{
+.botoes {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -112,7 +120,7 @@ form {
     align-items: center;
 }
 
-.botoes button{
+.botoes button {
     width: 80%;
     height: 40px;
     font-size: 17px;
@@ -122,7 +130,7 @@ form {
     color: var(--text-botao-comun);
 }
 
-.botoes #entrarGoogle{
+.botoes #entrarGoogle {
     background: transparent;
     color: var(--text-botao);
     border: solid 1px var(--text-botao);
@@ -132,45 +140,68 @@ form {
     gap: 7px;
     padding-left: 10px;
 }
-.botoes #entrarGoogle img{
+
+.botoes #entrarGoogle img {
     width: 23px;
     height: auto;
 }
-.linha{
+
+.linha {
     width: 60%;
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.HR{
+
+.HR {
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.HR hr{
+
+.HR hr {
     border: 1px solid #666666;
     width: 100%;
 }
-.linha p{
+
+.linha p {
     font-size: large;
     background-color: #ffffff;
     width: 40px;
     text-align: center;
 }
+
 .Imagem {
     width: 50%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .Imagem img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     display: block;
+}
+
+@media (max-width: 845px) {
+    .Imagem {
+        display: none;
+    }
+
+    .formularios {
+        width: 100%;
+        padding: 10px;
+    }
+    .formularios form{
+        width: 90%;
+        height: 500px;
+        min-width: 400px;
+    }
 }
