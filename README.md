@@ -142,3 +142,278 @@ Essa tela serve para atrair novos clientes e para a vidraçaria medir a qualidad
 * **Comentários e Fotos:** Haverá uma área de texto livre para ele relatar a experiência e um botão para "Anexar Foto do Projeto Pronto".
   
 * **Exibição:** As melhores avaliações, junto com as fotos reais tiradas pelos clientes, serão exibidas automaticamente no *Index do Produto* na Tela de Início, ajudando outros usuários a tomarem a decisão de compra.
+
+* PLANO DE TESTES — SISTEMA DE PRODUTOS
+  
+Objetivo
+
+Verificar o funcionamento das funcionalidades do sistema, avaliando principalmente:
+
+Funcionamento dos botões;
+Funcionamento dos links;
+Exibição de mensagens de erro;
+Interface do sistema;
+Tempo de resposta das funcionalidades;
+Navegação entre telas;
+Login;
+Cadastro;
+Compra de produtos;
+Pesquisa de produtos;
+Confirmação das informações.
+Critérios de Teste
+Botões
+O botão deve reagir corretamente à ação do usuário.
+Cliques repetidos não devem causar erros ou comportamentos inesperados.
+Links
+Os links devem direcionar para as páginas corretas.
+Nenhum link deve estar quebrado.
+Mensagens de erro
+Mensagens de erro devem aparecer quando informações inválidas forem inseridas.
+Campos obrigatórios devem ser identificados quando não forem preenchidos.
+Interface
+Os elementos devem estar organizados e dimensionados corretamente.
+Textos, imagens e botões devem estar visíveis e alinhados.
+Tempo de resposta
+O sistema deve responder às ações em tempo adequado.
+A execução de várias ações consecutivas não deve causar lentidão significativa.
+Casos de Teste
+CT01 — Botões: Executar ação
+
+Ação: Clicar no botão.
+
+Resposta esperada: O botão deve executar a ação correta.
+
+CT02 — Botões: Cliques consecutivos
+
+Ação: Clicar várias vezes no mesmo botão.
+
+Resposta esperada: O sistema não deve apresentar erros ou comportamentos inesperados.
+
+CT03 — Links: Redirecionamento
+
+Ação: Clicar em um link.
+
+Resposta esperada: O usuário deve ser direcionado para a página correta.
+
+CT04 — Links: Verificação de links
+
+Ação: Acessar todos os links da página.
+
+Resposta esperada: Nenhum link deve estar quebrado.
+
+CT05 — Mensagem de erro: Informações incorretas
+
+Ação: Inserir informações incorretas.
+
+Resposta esperada: O sistema deve exibir uma mensagem de erro.
+
+CT06 — Mensagem de erro: Campos obrigatórios
+
+Ação: Deixar campos obrigatórios em branco.
+
+Resposta esperada: O sistema deve informar quais campos precisam ser preenchidos.
+
+CT07 — Interface: Tamanho dos elementos
+
+Ação: Verificar o tamanho dos elementos da interface.
+
+Resposta esperada: Os elementos devem estar organizados e dimensionados corretamente.
+
+CT08 — Interface: Elementos visuais
+
+Ação: Verificar textos, imagens e botões.
+
+Resposta esperada: Todos os elementos devem estar visíveis e alinhados corretamente.
+
+CT09 — Tempo de resposta: Funcionalidade
+
+Ação: Clicar em uma funcionalidade.
+
+Resposta esperada: O sistema deve responder em um tempo adequado.
+
+CT10 — Tempo de resposta: Ações consecutivas
+
+Ação: Executar várias ações consecutivas.
+
+Resposta esperada: O sistema não deve apresentar lentidão significativa.
+
+CT11 — Telas: Navegação
+
+Ação: Navegar entre as telas.
+
+Resposta esperada: A transição entre as telas deve ocorrer corretamente.
+
+CT12 — Telas: Carregamento
+
+Ação: Abrir cada tela do sistema.
+
+Resposta esperada: Todas as telas devem carregar sem apresentar erros.
+
+Login
+CT13 — Login válido
+
+Teste: Login válido.
+
+Entrada: Usuário e senha corretos.
+
+Resposta esperada: O usuário deve conseguir acessar o sistema.
+
+CT14 — Usuário inexistente
+
+Teste: Usuário inexistente.
+
+Entrada: Usuário não cadastrado.
+
+Resposta esperada: O sistema deve impedir o acesso e informar que os dados não são válidos.
+
+Cadastro
+CT15 — Cadastro válido
+
+Teste: Cadastro válido.
+
+Entrada: Todos os dados corretos.
+
+Resposta esperada: O cadastro deve ser realizado com sucesso.
+
+CT16 — E-mail inválido
+
+Teste: E-mail inválido.
+
+Entrada: usuario@
+
+Resposta esperada: O sistema deve informar que o formato do e-mail está incorreto.
+
+CT17 — E-mail duplicado
+
+Teste: E-mail já cadastrado.
+
+Entrada: E-mail existente no sistema.
+
+Resposta esperada: O sistema deve informar que o e-mail já está em uso.
+
+Compra do Produto
+CT18 — Adicionar produto
+
+Teste: Adicionar produto.
+
+Entrada: Selecionar um produto e clicar em adicionar.
+
+Resposta esperada: O produto deve aparecer no carrinho.
+
+CT19 — Alterar quantidade
+
+Teste: Alterar quantidade do produto.
+
+Entrada: Aumentar a quantidade de 1 para 2.
+
+Resposta esperada: A quantidade e o valor total devem ser atualizados corretamente.
+
+CT20 — Remover produto
+
+Teste: Remover produto.
+
+Entrada: Clicar em remover.
+
+Resposta esperada: O produto deve desaparecer do carrinho.
+
+CT21 — Finalizar compra
+
+Teste: Finalizar compra.
+
+Entrada: Informar dados válidos.
+
+Resposta esperada: A compra deve ser concluída com sucesso.
+
+Pesquisa de Produtos
+CT22 — Produto existente
+
+Teste: Pesquisar produto existente.
+
+Entrada: Tênis
+
+Resposta esperada: O sistema deve apresentar produtos correspondentes ou semelhantes à pesquisa.
+
+Confirmação de Informações do Produto
+CT23 — Confirmar informações
+
+Teste: Confirmar informações.
+
+Entrada: Cliente confirma que todas as informações estão corretas.
+
+Resposta esperada: O sistema deve registrar a confirmação.
+
+CT24 — Informar erro
+
+Teste: Informar erro nas informações.
+
+Entrada: Cliente marca que encontrou um erro.
+
+Resposta esperada: O sistema deve permitir que o cliente informe o problema encontrado.
+
+CT25 — Erro sem descrição
+
+Teste: Informar erro sem descrição.
+
+Entrada: Cliente marca que encontrou um erro, mas não informa qual.
+
+Resposta esperada: O sistema deve solicitar uma descrição do problema.
+
+CT26 — Descrição extensa
+
+Teste: Inserir descrição muito extensa.
+
+Entrada: Texto que ultrapassa o limite permitido.
+
+Resposta esperada: O sistema deve aceitar o texto até o limite estabelecido ou informar ao usuário qual é o limite permitido.
+
+CT27 — Enviar documento
+
+Teste: Enviar documento preenchido.
+
+Entrada: Documento preenchido corretamente.
+
+Resposta esperada: O documento deve ser enviado com sucesso.
+
+Resumo dos Casos de Teste
+ID	Categoria	Teste
+CT01	Botões	Executar ação
+CT02	Botões	Cliques consecutivos
+CT03	Links	Redirecionamento
+CT04	Links	Verificação de links
+CT05	Mensagem de erro	Informações incorretas
+CT06	Mensagem de erro	Campos obrigatórios
+CT07	Interface	Tamanho dos elementos
+CT08	Interface	Elementos visuais
+CT09	Tempo de resposta	Funcionalidade
+CT10	Tempo de resposta	Ações consecutivas
+CT11	Telas	Navegação
+CT12	Telas	Carregamento
+CT13	Login	Login válido
+CT14	Login	Usuário inexistente
+CT15	Cadastro	Cadastro válido
+CT16	Cadastro	E-mail inválido
+CT17	Cadastro	E-mail duplicado
+CT18	Compra	Adicionar produto
+CT19	Compra	Alterar quantidade
+CT20	Compra	Remover produto
+CT21	Compra	Finalizar compra
+CT22	Pesquisa	Produto existente
+CT23	Confirmação	Confirmar informações
+CT24	Confirmação	Informar erro
+CT25	Confirmação	Erro sem descrição
+CT26	Confirmação	Descrição extensa
+CT27	Confirmação	Enviar documento
+Resultado Esperado
+
+Ao final da execução dos testes, o sistema deve:
+
+Executar corretamente as ações dos usuários;
+Apresentar mensagens de erro adequadas;
+Possuir links funcionais;
+Apresentar uma interface organizada;
+Carregar as telas corretamente;
+Responder às ações em tempo adequado;
+Permitir login e cadastro conforme as regras estabelecidas;
+Permitir a realização de compras;
+Permitir a pesquisa de produtos;
+Registrar corretamente as confirmações e informações fornecidas pelo usuário.
