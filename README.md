@@ -143,7 +143,7 @@ Essa tela serve para atrair novos clientes e para a vidraçaria medir a qualidad
   
 * **Exibição:** As melhores avaliações, junto com as fotos reais tiradas pelos clientes, serão exibidas automaticamente no *Index do Produto* na Tela de Início, ajudando outros usuários a tomarem a decisão de compra.
 
-* PLANO DE TESTES — SISTEMA DE PRODUTOS
+*5 PLANO DE TESTES — SISTEMA DE PRODUTOS
   
 Objetivo
 
