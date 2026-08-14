@@ -1,6 +1,6 @@
 # 🪟 Sistema de Gestão e Pedidos para Vidraçaria
 
-<a href="https://www.figma.com/design/ZbTOW9FdPPU8OnmRvhsz0h/Untitled?node-id=0-1&t=ixKbmfRZjyeqAccM-1">link para figma</a>
+<a href="https://www.figma.com/design/ZbTOW9FdPPU8OnmRvhsz0h/Untitled?node-id=0-1&t=ixKbmfRZjyeqAccM-1" target="_blank">link para figma</a>
 ## 📌 Explicação da Demanda (O Problema)
 A empresa apresenta grande dificuldade em desenhar e estruturar projetos personalizados. Atualmente, esse processo é realizado de forma totalmente manual e varia conforme a exigência de cada cliente. 
 
