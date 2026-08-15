@@ -73,7 +73,7 @@ Abaixo está o descritivo de como o sistema funcionará na prática, detalhando 
 
 ### Logo da empresa:
 
-<img src="assets/ReadMEAssets/logoEmpresa.png" style="width:200px; heigth: auto;"> 
+<img src="../Demanda-da-Saga-SENAI/FrontEnd/assets/ReadMEAssets/logoEmpresa.png" style="width:200px; heigth: auto;"> 
 
 ### 1. Tela de Início (Home)
 **Como vai funcionar:**
@@ -88,7 +88,7 @@ Esta é a vitrine da vidraçaria. O foco aqui é passar credibilidade e direcion
 
 **Representação proxima de como vai ficar:**<br>
 
-<img src="assets/ReadMEAssets/TelaInicial.png" style="width:90%; heigth: auto; border-radius: 7px;">
+<img src="../Demanda-da-Saga-SENAI/FrontEnd/assets/ReadMEAssets/TelaInicial.png" style="width:90%; heigth: auto; border-radius: 7px;">
 
 ### 2. Tela de Login e Cadastro (Tela Única)
 **Como vai funcionar:**
@@ -102,7 +102,7 @@ Para evitar que o usuário mude de página e abandone o site, o Login e o Cadast
 
 **Representação proxima de como vai ficar:**
 
-<img src="assets/ReadMEAssets/TelaLogin.png" style="width:90%; heigth: auto; border-radius: 7px;">
+<img src="../Demanda-da-Saga-SENAI/FrontEnd/assets/ReadMEAssets/telaLogin.png" style="width:90%; heigth: auto; border-radius: 7px;">
 
 ### 3. Tela de Compras
 **Como vai funcionar:**
