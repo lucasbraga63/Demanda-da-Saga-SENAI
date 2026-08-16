@@ -418,3 +418,5 @@ Permitir a realização de compras;
 Permitir a pesquisa de produtos;
 Registrar corretamente as confirmações e informações fornecidas pelo usuário.
 
+![Imagem do projeto](ChatGPT%20Image%2016%20de%20ago.%20de%202026%2C%2015_19_13.png)
+
