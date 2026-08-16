@@ -417,3 +417,4 @@ Permitir login e cadastro conforme as regras estabelecidas;
 Permitir a realização de compras;
 Permitir a pesquisa de produtos;
 Registrar corretamente as confirmações e informações fornecidas pelo usuário.
+
