@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+   --fundo-header: #091A34;
+   --cor-links-secundario: #FFFFFF;
+   --cor-links-principal: ;
+   --cor-fundo-body: #F6F6F6;
+   --cor-fundo-input: #ffffff;
+   --hover-button-dialog: #f9ffff;
+}
+body{
+    background-color: var(--cor-fundo-body);
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  width: 100%;
+  height: 60px;
+  background-color: var(--fundo-header);
+  display: flex;
+ 
+  align-items: center;
+  gap: 180px;
+}
+
+.logo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.logo img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+.inputPesquisa{
+    width: 50%;
+    border-radius: 7px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: var(--cor-fundo-input);
+}
+
+.inputPesquisa input{
+    width: 96%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.icon{
+    width: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img{
+    width: 30px;
+    height: auto;
+}
+
+.login{
+    width: 20%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.login .icon img{
+    width: 30px;
+    height: auto;
+}
+
+.login a{
+    color: var(--cor-links-secundario);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.login img{
+    width: 32px;
+    height: auto;
+}
+
+.menu{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+}
+
+.menu button{
+    background: transparent;
+    width: 20%;
+    height: 50px;
+    border: none;
+}
+.menu button img{
+    width: 32px;
+}
+.menu dialog{
+    margin-left: auto;
+    width: 16%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    border: none;
+    height: 100vh;
+}
+
+.menu dialog button{
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid #091A34;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-left: 9px;
+    transition: 0.4s;
+}
+.menu dialog button:hover{
+    background-color: var(--hover-button-dialog);
+}
+
+.linksMenu{
+    display: flex;
+    flex-direction: column;
+}
+.linksMenu ul{
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.linksMenu ul li{
+    border-bottom: 2px solid var(--fundo-header);
+}
+.linksMenu a{
+    text-decoration: none;
+    padding: 5px;
+    gap: 10px;
+    color: var(--cor-links-principal);
+    display: flex;
+    align-items: center;
+}

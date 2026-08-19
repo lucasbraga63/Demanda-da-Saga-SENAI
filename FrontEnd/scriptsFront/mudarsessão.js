@@ -1,5 +1,5 @@
 const rotaCadastro = document.getElementById('rotaCadastro')
-rotaVoltar = document.getElementById('rotaVoltar')
+const rotaVoltar = document.getElementById('rotaVoltar')
 const formularioLogin = document.getElementById('formLogin')
 const formularioCadastro = document.getElementById('formCadastro')
 
