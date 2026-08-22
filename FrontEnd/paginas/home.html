@@ -1,65 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
+<head id="headHome">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/menu.css">
+    <script src="../scriptsFront/linkagemAuto.js" defer></script>
     <title>Tela inicial</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <img src="../assets/Site assets/LogoOriginal.png" alt="logoEmpresa">
-        </div>
-
-        <div class="inputPesquisa">
-            <input type="text" placeholder="Busque o produto aqui">
-            <div class="icon">
-                <img src="../assets/Site assets/pesquisarIcon.png" alt="lupaIcon">
-            </div>
-        </div>
-
-        <div class="login">
-            <div class="icon">
-                <img src="../assets/Site assets/usuarioVoltaIcon.png" alt="">
-            </div>
-            <a href="../paginas/login.html">Voltar ao login</a>
-        </div>
-
-        <div class="menu">
-            <button command="show-modal" commandfor="carrinho">
-                <img src="../assets/Site assets/carrinhoIcon.png" alt="Abrir Janela">
-            </button>
-
-            <dialog id="carrinho">
-                <button command="close" commandfor="carrinho">
-                    <img src="../assets/Site assets/closeIcon.png" alt="Fechar"> Fechar
-                </button>
-            </dialog>
-
-            <button command="show-modal" commandfor="links">
-                <img src="../assets/Site assets/menuIcon.png" alt="Abrir Janela">
-            </button>
-
-            <dialog id="links">
-                <button command="close" commandfor="links">
-                    <img src="../assets/Site assets/closeIcon.png" alt="Fechar"> Fechar
-                </button>
-
-                <div class="linksMenu">
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="">Loja</a></li>
-                    </ul>
-                </div>
-            </dialog>
-        </div>
     </header>
 
     <main>
+        <div class="apresentacao">
+            <img src="../assets/Site assets/homeCapa.avif" alt="capa">
+            <div class="divEscura">
+                <div class="titulo">
+                    <h1>Bem vindo a nossa vidraçaria!</h1>
+                    <p>Aqui é onde você pode pedir sei lá o que de forma rápida</p>
+                </div>
+                <div class="botoes">
+                    <a href="">
+                        <button>Veja nossa loja</button>
+                    </a>
+                </div>
+            </div>
+        </div>
 
+        <div class="tituloHome">
+            <h1>Veja alguns dos nossos produtos</h1>
+        </div>
+        <div class="Carrossel-Produtos">
+            <div class="carrossel-div">
+                <button>Esquerda</button>
+
+                <div class="carrossel">
+                
+                </div>
+                
+                <button>Direita</button>
+            </div>
+        </div>
     </main>
 </body>
 

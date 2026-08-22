@@ -14,6 +14,14 @@
    --fundo-links-hover: #5d5d5d31;
 }
 
+main {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 body {
     background-color: var(--cor-fundo-body);
     min-height: 100vh;
