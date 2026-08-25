@@ -48,7 +48,7 @@ header {
 }
 
 .logo img {
-    width: 100%;
+    width: 140px;
     object-fit: cover;
     height: auto;
 }
@@ -196,4 +196,9 @@ header {
 }
 .linksMenu a:hover{
     background-color: var(--fundo-links-hover);
+}
+
+#iconesPraMenu{
+    width: 22px;
+    height: auto;
 }
