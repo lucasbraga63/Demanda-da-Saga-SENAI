@@ -420,3 +420,7 @@ Registrar corretamente as confirmações e informações fornecidas pelo usuári
 
 ![Imagem do projeto](ChatGPT%20Image%2016%20de%20ago.%20de%202026%2C%2015_19_13.png)
 
+
+![Imagem](./ChatGPT%20Image%2018%20de%20ago.%20de%202026%2C%2008_09_30.png)
+
+
