@@ -3,7 +3,7 @@ const head = document.querySelector('head');
 
 function linkarHome() {
     head.insertAdjacentHTML('beforeend', `
-     <link rel="stylesheet" href="../styles/home.css">
+     <link rel="stylesheet" href="FrontEnd/styles/home.css">
     `);
     
     const script = document.createElement('script');

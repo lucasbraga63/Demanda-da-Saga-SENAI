@@ -92,32 +92,3 @@ body {
    justify-content: center;
 }
 
-.Carrossel-Produtos {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.carrossel-div {
-    width: 80%;
-    padding: 10px;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-.carrossel-div button {
-    width: 10%;
-}
-
-.carrossel {
-    margin: 0 auto;
-    display: flex;
-    width: 80%;
-    height: 200px;
-    background-color: #f0c1c1;
-    justify-content: center;
-    align-items: center;
-}
