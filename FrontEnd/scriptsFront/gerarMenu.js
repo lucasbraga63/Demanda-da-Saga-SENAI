@@ -43,9 +43,9 @@ function GerarMenu() {
 
                 <div class="linksMenu">
                     <ul>
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">Loja</a></li>
-                        <li><a href="FrontEnd/paginas/feedbacks.html">Avaliações</a></li>
+                        <li><a href=""> <img src="FrontEnd/assets/Site assets/homeIcon.png" alt="icone" id="iconesPraMenu"> Inicio</a></li>
+                        <li><a href=""> <img src="FrontEnd/assets/Site assets/LojaIcon.png" alt="icone" id="iconesPraMenu"> Loja</a></li>
+                        <li><a href="FrontEnd/paginas/feedbacks.html"> <img src="FrontEnd/assets/Site assets/estrelaIcon.png" alt="icone" id="iconesPraMenu"> Avaliações</a></li>
                     </ul>
                 </div>
             </dialog>
