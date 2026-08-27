@@ -6,7 +6,7 @@
     --cor-titulos-home: #000000;
     --cor-textos-home: #2b2b2b;
     --fundo-card: white;
-    --cor-descricao: rgb(99, 97, 97);
+    --cor-descricao: rgb(35, 34, 34);
 }
 
 body {
@@ -76,8 +76,9 @@ body {
 
 .botoes button {
     width: 100%;
-    height: 100%;
-    border-radius: 7px;
+    height: 55px;
+    font-weight: 500;
+    border-radius: 20px;
     border: none;
     color: var(--cor-texto-capa);
     font-size: medium;
@@ -87,6 +88,7 @@ body {
 
 .botoes button:hover {
     background-color: var(--fundo-botao-hover);
+    transform: translateY(-4px);
 }
 
 .tituloHome {
@@ -120,46 +122,6 @@ body {
     gap: 16px;
 }
 
-/* .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height:400px;
-    background-color: var(--fundo-card);
-}
-
-.ImagemProduto{
-    width: 100%;
-    height: 50%;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.ImagemProduto img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.Informacoes{
-    width: 100%;
-    padding: 10px;
-    gap: 10px;
-    height: 100%;
-}
-
-.decricaoProduto{
-    width: 100%;
-    height: 20px;
-    overflow-wrap: break-word;
-}
-
-.decricaoProduto p{
-    font-size: 13px;
-    color: var(--cor-descricao);
-} */
-
 .botao {
     width: 100%;
     display: flex;
@@ -175,9 +137,14 @@ body {
     border: none;
     color: var(--cor-texto-capa);
     font-size: medium;
+    cursor: pointer;
     background-color: var(--fundo-botao);
     transition: 0.4s;
-    
+}
+
+.botao button:hover{
+    transform: translateY(-2px);
+    background-color: var(--fundo-botao-hover);
 }
 
 
@@ -187,7 +154,7 @@ body {
 
 
 .card {
-    
+
     height: 350px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -217,12 +184,13 @@ body {
 .cardTextContainer p {
     /* isso faz o texto pular linha caso passe */
     overflow-wrap: break-word;
-    
+    font-size: 14px;
+    color: var(--cor-descricao);
     /*para colocar reticencias e limitar as linhas*/
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    
+
     overflow-y: hidden;
 }
 

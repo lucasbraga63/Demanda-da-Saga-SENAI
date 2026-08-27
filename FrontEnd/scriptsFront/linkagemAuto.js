@@ -1,21 +1,22 @@
-// Busca o head de forma única
-const head = document.querySelector('head');
-const headFeedbacks = document.querySelector('.headFeedbacks')
+const head = document.querySelector('head')
 
-function linkarFeedbacks(){
-    headFeedbacks.insertAdjacentHTML('beforeend', `
-     <link rel="stylesheet" href="../styles/feedback.css">`);
+function linksFeedbacks() {
+    head.insertAdjacentHTML('beforeend', `<link rel="stylesheet" href="../styles/feedback.css">`)
 }
 
-function linkarGeral() {
-    head.insertAdjacentHTML('beforeend', `
-     <link rel="stylesheet" href="../styles/menu.css">`);
+function linksGerais() {
+    head.insertAdjacentHTML('beforeend', `<link rel="stylesheet" href="../styles/menu.css">`)
 
-    const script = document.createElement('script');
-    script.src = "../scriptsFront/gerarMenuGeral.js";
-    script.defer = true;
-    head.appendChild(script);
-};
+    const script = document.createElement('script')
+    script.src = "../scriptsFront/gerarMenuGeral.js"
+    script.defer = true
+    head.appendChild(script)
+}
 
-linkarGeral();
-linkarFeedbacks();
+function linksLoja() {
+    head.insertAdjacentHTML('beforeend', `<link rel="stylesheet" href="../styles/loja.css">`)
+}
+
+linksGerais()
+linksFeedbacks()
+linksLoja()
