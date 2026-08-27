@@ -18,7 +18,7 @@ function GerarMenu() {
             <div class="icon">
                 <img src="../assets/Site assets/usuarioVoltaIcon.png" alt="">
             </div>
-            <a href="paginas/login.html">Voltar ao login</a>
+            <a href="../paginas/login.html">Voltar ao login</a>
         </div>
 
         <div class="menu">
@@ -43,9 +43,9 @@ function GerarMenu() {
 
                 <div class="linksMenu">
                     <ul>
-                        <li><a href="/Demanda-da-Saga-SENAI/home.html">Inicio</a></li>
-                        <li><a href="">Loja</a></li>
-                        <li><a href="../paginas/feedbacks.html">Avaliações</a></li>
+                        <li><a href="/Demanda-da-Saga-SENAI/home.html"> <img src="../assets/Site assets/homeIcon.png" alt="icone" id="iconesPraMenu"> Inicio</a></li>
+                        <li><a href="../paginas/loja.html"> <img src="../assets/Site assets/LojaIcon.png" alt="icone" id="iconesPraMenu"> Loja</a></li>
+                        <li><a href="../paginas/feedbacks.html"> <img src="../assets/Site assets/estrelaIcon.png" alt="icone" id="iconesPraMenu"> Avaliações</a></li>
                     </ul>
                 </div>
             </dialog>

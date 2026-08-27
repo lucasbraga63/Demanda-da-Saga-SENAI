@@ -1,6 +1,6 @@
 const cardProdutos = document.querySelector('.Card-Produtos')
 
-for(let i=0;i<5;i++){
+for(let i=0;i<9;i++){
         createCards("FrontEnd/assets/Site assets/ImagemIndefinida.webp",
             "A propriedade do css que faz o texto pular linha automaticamente caso o texto seja maior que o card é: overflow-wrap: break-word",
             1.5,
@@ -82,7 +82,7 @@ for(let i=0;i<5;i++){
                         graficoStar.appendChild(iconStar.cloneNode(true))
                         copyStars--
                     }
-                    else if (copyStars >= 0.1 & copyStars <= 1) {
+                    else if (copyStars >= 0.1 && copyStars <= 1) {
                         graficoStar.appendChild(iconStarHalf.cloneNode(true))
                         copyStars -= copyStars
                     }
