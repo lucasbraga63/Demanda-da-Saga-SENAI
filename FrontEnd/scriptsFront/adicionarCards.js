@@ -1,11 +1,11 @@
 const cardProdutos = document.querySelector('.Card-Produtos')
 
 for(let i=0;i<9;i++){
-        createCards("FrontEnd/assets/Site assets/ImagemIndefinida.webp",
-            "A propriedade do css que faz o texto pular linha automaticamente caso o texto seja maior que o card é: overflow-wrap: break-word",
-            1.5,
+        createCards("https://i.pinimg.com/originals/1f/2b/45/1f2b45d5591ec5df212e344ff529b5ad.jpg",
+            "Box de banheiro",
+            4.5,
             350,
-            250)
+            2500)
      }
 
         function createCards(imagem, descricao, mediaStars, people, preco) {
@@ -31,7 +31,7 @@ for(let i=0;i<9;i++){
             cardTextContainer.className = `cardTextContainer`
             // card.id =
             cardContent.appendChild(cardTextContainer)
-            const cardText = document.createElement('p')
+            const cardText = document.createElement('h1')
             cardText.textContent = descricao
             cardTextContainer.appendChild(cardText)
 
@@ -95,7 +95,7 @@ for(let i=0;i<9;i++){
                 //tao separados para mudar o display caso precise
                 div.appendChild(graficoStar)
 
-                div.innerHTML += `<p>(${people})</p>`
+             //   div.innerHTML += `<p>(${people})</p>`
                 // avaliações
                 rateContainer.appendChild(div)
                 cardContent.appendChild(rateContainer)
