@@ -13,7 +13,7 @@
     width: 100%;
     min-height: 0px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     justify-content: center;
     align-items: center;
     gap: 16px;
@@ -22,13 +22,12 @@
 
 .card {
 
-    height: 470px;
+    height: 450px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin: 10px;
     overflow: hidden;
     transition: 0.5s;
-    border: 0 solid green;
 }
 
 .card:hover {
@@ -38,7 +37,7 @@
 
 .cardImg {
     width: 100%;
-    height: 80%;
+    height: 70%;
     background-color: rgba(160, 160, 160, 1);
     object-fit: cover;
 }
@@ -47,8 +46,8 @@
     /* background-color: aquamarine; */
     padding: 7px;
     display: flex;
-flex-direction: column;
-align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cardTextContainer h1 {
@@ -85,14 +84,14 @@ align-items: center;
 }
 
 .div p {
-    font-weight: semi-bold;
+    font-weight: 500;
     font-size: 16px;
 }
 
 
 .cardPrecoContainer p {
     margin-top: 16%;
- /* margin-top: 15%; */
+    /* margin-top: 15%; */
     color: green;
     font-size: 17px;
     font-weight: bold;

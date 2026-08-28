@@ -49,24 +49,29 @@
     box-shadow: var(--shadown-form);
     border-radius: 10px;
     min-height: 70%;
+    padding: 0;
 }
 
 #formulario #FecharDialog {
     width: 100%;
+    height: 50px;
     padding-left: 10px;
     text-align: left;
     cursor: pointer;
     justify-content: flex-start;
-    height: 50px;
     border: none;
     border-bottom: var(--border-button-dialog);
     background-color: transparent;
 }
 
+#formulario form {
+    width: 100%;
+}
+
 .inputs {
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding: 20px 10px 10px;
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -106,7 +111,7 @@
     background: transparent;
     border: none;
     outline: none;
-    color: var(--cor-text-inputs);
+    color: var(--cor-text-input);
 }
 
 .inputDuplo {
@@ -150,7 +155,7 @@
     height: 100%;
     background: transparent;
     border: none;
-    color: var(--cor-text-inputs);
+    color: var(--cor-text-input);
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
     resize: none;
@@ -158,8 +163,8 @@
 
 #inputImagemProduto {
     width: 100%;
-    padding-top: 4px;
     height: 100%;
+    padding-top: 4px;
     background: transparent;
     border: none;
     outline: none;
@@ -177,4 +182,30 @@
     background-color: var(--cor-fundo-botao);
     color: var(--cor-texto-botao);
     cursor: pointer;
+}
+
+.botaoForm {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoForm button {
+    background-color: var(--cor-fundo-botao);
+    width: 30%;
+    height: 100%;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    color: var(--cor-texto-botao);
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.botaoForm button:hover{
+    transform: translateY(-2px);
 }

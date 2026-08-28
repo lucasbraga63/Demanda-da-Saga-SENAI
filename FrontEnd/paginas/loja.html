@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/cards.css">
     <script src="../scriptsFront/linkagemAuto.js" defer></script>
-        <script src="../scriptsFront/cadastrarProduto.js" defer></script>
-
+    <script src="../scriptsFront/cadastrarProduto.js" defer></script>
     <title>Loja</title>
 </head>
 
 <body>
     <header>
-
     </header>
+
     <main>
         <div class="botao">
-            <button command="show-modal" commandfor="formulario" id="abrirDialog"><img
-                    src="../assets/Site assets/formularioIcon.png" alt="icon"> Cadastrar Produto</button>
-            <dialog id="formulario">
+            <button command="show-modal" commandfor="formulario" id="abrirDialog">
+                <img src="../assets/Site assets/formularioIcon.png" alt="icon">
+                Cadastrar Produto
+            </button>
 
-                <button command="close" commandfor="formulario" id="FecharDialog"> <img src="../assets/Site assets/closeIcon.png" alt="icon"></button>
+            <dialog id="formulario">
+                <button command="close" commandfor="formulario" id="FecharDialog">
+                    <img src="../assets/Site assets/closeIcon.png" alt="icon">
+                </button>
 
                 <form autocomplete="off">
                     <div class="inputs">
@@ -37,7 +40,8 @@
                             <div class="icon">
                                 <img src="../assets/Site assets/descricaoProdutoIcon.png" alt="icon">
                             </div>
-                            <textarea  placeholder="Descrição do produto" maxlength="200" id="inputDescricaoProduto" required></textarea>
+                            <textarea placeholder="Descrição do produto" maxlength="200" id="inputDescricaoProduto"
+                                required></textarea>
                         </div>
 
                         <div class="inputDuplo">
@@ -45,33 +49,36 @@
                                 <div class="icon">
                                     <img src="../assets/Site assets/pngIcon.png" alt="icon">
                                 </div>
-                                <input type="file" accept="image/*"  id="inputImagemProduto" required>
+                                <input type="file" accept="image/*" id="inputImagemProduto" required>
                             </div>
 
                             <div class="divInput">
                                 <div class="icon">
                                     <img src="../assets/Site assets/precoIcon.png" alt="icon">
                                 </div>
-                                <input type="number" placeholder="Preço do produto" min="1" id="inputPrecoProduto" required>
+                                <input type="number" placeholder="Preço do produto" min="1" id="inputPrecoProduto"
+                                    required>
                             </div>
                         </div>
+
                     </div>
-                                     <button type="button" onclick="addProduto()">enviar</button>
-                  </div>
+
+                    <div class="botaoForm">
+                        <button type="button" onclick="addProduto()">Enviar</button>
+                    </div>
                 </form>
             </dialog>
         </div>
 
-         <div class="Produtos">
+        <div class="Produtos">
             <div class="Card-Produtos">
+                
             </div>
+
             <div class="botao">
-
+            </div>
         </div>
-        
     </main>
-
-
 </body>
 
 </html>
