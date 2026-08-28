@@ -43,7 +43,7 @@ function GerarMenu() {
 
                 <div class="linksMenu">
                     <ul>
-                        <li><a href="/Demanda-da-Saga-SENAI/home.html"> <img src="../assets/Site assets/homeIcon.png" alt="icone" id="iconesPraMenu"> Inicio</a></li>
+                        <li><a href="/Demanda-da-Saga-SENAI/index.html"> <img src="../assets/Site assets/homeIcon.png" alt="icone" id="iconesPraMenu"> Inicio</a></li>
                         <li><a href="../paginas/loja.html"> <img src="../assets/Site assets/LojaIcon.png" alt="icone" id="iconesPraMenu"> Loja</a></li>
                         <li><a href="../paginas/feedbacks.html"> <img src="../assets/Site assets/estrelaIcon.png" alt="icone" id="iconesPraMenu"> Avaliações</a></li>
                     </ul>
